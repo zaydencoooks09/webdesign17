@@ -1,0 +1,26 @@
+body{
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.pagination{
+    teaxt-align: center;
+    margin-top: 40px;
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+ .pagination a.active{
+    background-color: lightgreen;
+    font-weight:bold;
+    border-radius: 5px;
+ }
+ .pagination a:hover:not(.active){
+    background-color: #ddd;
+    border-radius: 5px;
+ }
